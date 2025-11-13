@@ -44,7 +44,7 @@ Chico Coin มุ่งสร้างระบบโทเค็นที่ช
 
 [![Website](https://img.shields.io/badge/Website-ChicoCoin.io-blue?style=for-the-badge&logo=internetexplorer)](https://chicocoin.github.io)  
 [![Telegram](https://img.shields.io/badge/Telegram-Community-blue?style=for-the-badge&logo=telegram)](https://t.me/chicocoinCHC)  
-[![Twitter](https://img.shields.io/badge/Twitter-@ChicoCoin-blue?style=for-the-badge&logo=twitter)](https://twitter.com/@ChicoCoin)  
+[![Twitter](https://img.shields.io/badge/Twitter-@ChicoCoin-blue?style=for-the-badge&logo=twitter)](https://twitter.com/@ChicocoinCHC)  
 ---
 
 ## 💬 การติดต่อ (Contact)
