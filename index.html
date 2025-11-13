@@ -1,53 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chico Coin (CHC) Official</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chaicocoin (CHC)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {margin:0; padding:0; box-sizing:border-box;}
+    body {font-family:'Roboto',sans-serif; background:#0d0d0d; color:#eee; line-height:1.6;}
+    a {text-decoration:none; color:inherit;}
+
+    header {display:flex; flex-direction:column; align-items:center; justify-content:center; height:80vh; background: linear-gradient(135deg,#00ff99,#00ccff); color:#0d0d0d; text-align:center; padding:20px;}
+    header h1 {font-size:3rem; margin-bottom:10px;}
+    header p {font-size:1.2rem; max-width:600px;}
+
+    nav {position:sticky; top:0; background:#111; display:flex; justify-content:center; padding:10px 0; z-index:1000; box-shadow:0 2px 5px rgba(0,0,0,0.5);}
+    nav a {margin:0 20px; font-weight:700; color:#00ff99; transition:0.3s;}
+    nav a:hover {color:#00ccff;}
+
+    section {padding:80px 20px; max-width:1000px; margin:auto;}
+    section h2 {text-align:center; color:#00ff99; font-size:2.5rem; margin-bottom:40px; position:relative;}
+    section h2::after {content:''; display:block; width:60px; height:3px; background:#00ff99; margin:10px auto 0; border-radius:2px;}
+
+    .info-card {background:#111; padding:15px 20px; border-radius:10px; width:fit-content; box-shadow:0 4px 10px rgba(0,0,0,0.5); margin:10px auto; text-align:center;}
+    .roadmap-item {background:#111; padding:20px; border-radius:10px; margin-bottom:20px; box-shadow:0 4px 10px rgba(0,0,0,0.5);}
+    .roadmap-item h3 {color:#00ccff; margin-bottom:5px;}
+    .team-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px;}
+    .team-member {background:#111; padding:20px; border-radius:10px; text-align:center; box-shadow:0 4px 10px rgba(0,0,0,0.5);}
+    .team-member h3 {color:#00ff99; margin-bottom:5px;}
+    #contact p {text-align:center; margin-bottom:10px;}
+    #contact a {color:#00ff99; font-weight:700;}
+    footer {background:#111; text-align:center; padding:20px; color:#555;}
+  </style>
 </head>
 <body>
-    <header>
-        <div class="logo">Chico Coin</div>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#tokenomics">Tokenomics</a>
-            <a href="#whitepaper">Whitepaper</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
 
-    <section id="home" class="hero">
-        <h1>Chico Coin (CHC)</h1>
-        <p>A new generation of digital asset built for trust and stability.</p>
-        <button>Coming Soon</button>
-    </section>
+<header>
+  <h1>Chaicocoin (CHC)</h1>
+  <p>โทเค็นบนเครือข่าย BSC ที่สร้างขึ้นเพื่อสนับสนุนชุมชนคริปโต เน้นความโปร่งใสและการมีส่วนร่วมของผู้ใช้งาน</p>
+</header>
 
-    <section id="about">
-        <h2>About Chico Coin</h2>
-        <p>Chico Coin (CHC) is a community-driven digital currency designed to create financial freedom and opportunity. Built with transparency, security, and long-term growth in mind.</p>
-    </section>
+<nav>
+  <a href="#about">เกี่ยวกับเรา</a>
+  <a href="#roadmap">Roadmap</a>
+  <a href="#team">ทีม</a>
+  <a href="#contact">ติดต่อ</a>
+</nav>
 
-    <section id="tokenomics">
-        <h2>Tokenomics</h2>
-        <table>
-            <tr><td>Total Supply:</td><td>1,000,000,000 CHC</td></tr>
-            <tr><td>Network:</td><td>Binance Smart Chain (BSC)</td></tr>
-            <tr><td>Symbol:</td><td>CHC</td></tr>
-        </table>
-    </section>
+<section id="about">
+  <h2>เกี่ยวกับ Chaicocoin</h2>
+  <p>Chaicocoin (CHC) เป็นโทเค็นบนเครือข่าย BSC ที่สร้างขึ้นเพื่อสนับสนุนชุมชนคริปโต โดยเน้นความโปร่งใสและการมีส่วนร่วมของผู้ใช้งาน</p>
 
-    <section id="whitepaper">
-        <h2>Whitepaper</h2>
-        <p>The official whitepaper for Chico Coin will be available soon.</p>
-        <button>View Whitepaper</button>
-    </section>
+  <div class="info-card">
+    <strong>จำนวนเหรียญทั้งหมด (Total Supply): 10,000,000 CHC</strong>
+    <br><a href="data:text/plain,Total Supply: 10000000 CHC" download="Chaicocoin_TotalSupply.txt">ดาวน์โหลด</a>
+  </div>
+  
+  <div class="info-card">
+    <strong>เลขที่สัญญา (Contract Address): 0x5E44aE080d528eDf31BED8018dCcB04D032EC5dB</strong>
+    <br><a href="data:text/plain,Contract Address: 0x5E44aE080d528eDf31BED8018dCcB04D032EC5dB" download="Chaicocoin_ContractAddress.txt">ดาวน์โหลด</a>
+  </div>
+</section>
 
-    <footer>
-        <p>© 2025 Chico Coin | All Rights Reserved</p>
-    </footer>
+<section id="roadmap">
+  <h2>Roadmap</h2>
+  <div class="roadmap-item">
+    <h3>Q1 2025</h3>
+    <p>เปิดตัวเหรียญ CHC <a href="data:text/plain,เปิดตัวเหรียญ CHC" download="Chaicocoin_Q1.txt">ดาวน์โหลด</a></p>
+  </div>
+  <div class="roadmap-item">
+    <h3>Q2 2025</h3>
+    <p>Listing บนตลาด Exchange ขนาดเล็ก <a href="data:text/plain,Listing บนตลาด Exchange ขนาดเล็ก" download="Chaicocoin_Q2.txt">ดาวน์โหลด</a></p>
+  </div>
+  <div class="roadmap-item">
+    <h3>Q3 2025</h3>
+    <p>พัฒนา Wallet & Mobile App <a href="data:text/plain,พัฒนา Wallet & Mobile App" download="Chaicocoin_Q3.txt">ดาวน์โหลด</a></p>
+  </div>
+  <div class="roadmap-item">
+    <h3>Q4 2025</h3>
+    <p>Listing บน Exchange ขนาดใหญ่ <a href="data:text/plain,Listing บน Exchange ขนาดใหญ่" download="Chaicocoin_Q4.txt">ดาวน์โหลด</a></p>
+  </div>
+</section>
 
-    <script src="script.js"></script>
+<section id="team">
+  <h2>ทีมพัฒนา</h2>
+  <div class="team-grid">
+    <div class="team-member">
+      <h3>John Doe</h3>
+      <p>CEO & Founder</p>
+      <a href="data:text/plain,John Doe - CEO & Founder" download="Chaicocoin_JohnDoe.txt">ดาวน์โหลดโปรไฟล์</a>
+    </div>
+    <div class="team-member">
+      <h3>Jane Smith</h3>
+      <p>CTO & Blockchain Developer</p>
+      <a href="data:text/plain,Jane Smith - CTO & Blockchain Developer" download="Chaicocoin_JaneSmith.txt">ดาวน์โหลดโปรไฟล์</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>ติดต่อเรา</h2>
+  <p>Email: <a href="mailto:contact@chaicocoin.com">contact@chaicocoin.com</a></p>
+  <p>Telegram: <a href="https://t.me/ChaicocoinOfficial" target="_blank">@ChaicocoinOfficial</a></p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Chaicocoin (CHC) - All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
