@@ -38,7 +38,13 @@ Chico Coin มุ่งสร้างระบบโทเค็นที่ช
 | **Q1 2026** | เผยแพร่ Whitepaper และเปิดตัวกระเป๋า (Wallet) รุ่นแรก |
 | **Q2 2026** | จดทะเบียนบน DEX (เช่น PancakeSwap) |
 | **Q3 2026** | ขยายระบบนิเวศและพัฒนา Smart Contract รุ่นใหม่ |
+## 🌐 ช่องทางติดต่อและชุมชน
 
+ติดตามข่าวสารและอัปเดตจากทีมพัฒนา ChicoCoin ได้ที่:
+
+[![Website](https://img.shields.io/badge/Website-ChicoCoin.io-blue?style=for-the-badge&logo=internetexplorer)](https://chicocoin.github.io)  
+[![Telegram](https://img.shields.io/badge/Telegram-Community-blue?style=for-the-badge&logo=telegram)](https://t.me/chicocoinCHC)  
+[![Twitter](https://img.shields.io/badge/Twitter-@ChicoCoin-blue?style=for-the-badge&logo=twitter)](https://twitter.com/@ChicoCoin)  
 ---
 
 ## 💬 การติดต่อ (Contact)
